@@ -22,19 +22,20 @@
             <a href="#servicio">Servicio</a>
             <a href="#sucursal">Sucursal</a>
             <a href="#contacto">Contacto</a>
+            <a href="#registro">Registro</a>
         </nav>
         <div class="contenedor head">
             <h1 class="titulo">Convertimos tus Pelos en realidad</h1>
             <p class="copy">Desde 2015 nos dedicamos a mejorar la imagen de nuestros clientes.
 
                 El objetivo es brindar el mejor servicio y marcar tendencia.
-                
+
                 Por eso construimos un espacio en el mundo para que disfrutes y te sientas cómodo.
-                
+
                 Queremos que BARBERIA sea tu lugar donde, más allá de cambiar tu look,
-                
+
                 puedas relajarte, disfrutar de una buena cerveza y encontrarte con amigos.
-                
+
                 - Te esperamos -
             </p>
         </div>
@@ -60,7 +61,7 @@
             <div class="contenedor">
                 <h2 class="subtitulo">Tendencia</h2>
                 <div class="contenedor-galeria">
-                    <img src="./imgen/1.jpg" class="img-galeria"     alt="img-galeria" width="400">
+                    <img src="./imgen/1.jpg" class="img-galeria" alt="img-galeria" width="400">
                     <img src="./imgen/2.jpg" class="img-galeria" alt="img-galeria" width="400">
                     <img src="./imgen/corte.jpg" class="img-galeria" alt="img-galeria" width="400">
                     <img src="./imgen/corte3.jpg" class="img-galeria" alt="img-galeria" width="400">
@@ -70,9 +71,9 @@
             </div>
         </section>
         <section class="imagen-light">
-        <img src="imgen/close.svg" alt="close" class="close">
-        <img src="imgen/fondo-largo.jpg" alt="" class="agregar-imagen">
-    </section>
+            <img src="imgen/close.svg" alt="close" class="close">
+            <img src="imgen/fondo-largo.jpg" alt="" class="agregar-imagen">
+        </section>
         <section class="contenedor" id="sucursal">
             <h2 class="subtitulo">Encontranos en:</h2>
             <section class="suc">
@@ -87,11 +88,79 @@
                     <h3 class="n-suc">Sur</h3>
                 </div>
                 <div class="cont-suc">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.376355568043!2d-65.221834725528!3d-26.85978129099239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225b9236a0385f%3A0x93852248302ed58a!2sPcia%20de%20Jujuy%202251%2C%20T4002JON%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1716680125047!5m2!1ses!2sar" ></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.376355568043!2d-65.221834725528!3d-26.85978129099239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225b9236a0385f%3A0x93852248302ed58a!2sPcia%20de%20Jujuy%202251%2C%20T4002JON%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1716680125047!5m2!1ses!2sar"></iframe>
                     <h3 class="n-suc">Este</h3>
                 </div>
             </section>
         </section>
+
+        <section class="contenedor" id="registro">
+            <section class="cuerpo">
+                <div class="container">
+                    <div class="title">
+                        <h2 class="subtitulo">Registro</h2>
+                    </div>
+                    <form id="form-validation" novalidate>
+                        <div class="form-group">
+                            <span>Nombre</span>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese aqui su Nombre" required>
+                            <small>Por favor ingrese su nombre</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Apellido</span>
+                            <input type="text" class="form-control" id="Apellido"
+                                placeholder="Ingrese aqui su Apellido" required>
+                            <small>Por favor ingrese su apellido</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Em@il</span>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese aqui su Correo" required>
+                            <small>Por favor ingrese su email</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Direccion</span>
+                            <input type="text" class="form-control" id="direccion"
+                                placeholder="Ingrese aqui su Direccion" required> 
+                            <small>Por favor ingrese su direccion</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Telefono</span>
+                            <input type="number" class="form-control" id="telefono"
+                                placeholder="Ingrese aqui su Telefono" required>
+                            <small>Por favor ingrese su telefono</small>
+                        </div>
+                        <div class="form-group">
+                            <span>DNI</span>
+                            <input type="text" class="form-control" id="dni" placeholder="Ingrese aqui su DNI" required>
+                            <small>Por favor ingrese su dni</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Fecha de Nacimiento.</span>
+                            <input type="date" class="form-control" id="fecha" required>
+                            <small>Por favor ingrese su fecha de nacimiento</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Contraseña</span>
+                            <input type="password" class="form-control" id="contraseña"
+                                placeholder="Ingrese aqui su Contraseña" required>
+                            <small>Por favor ingrese su contraseña</small>
+                        </div>
+                        <div class="form-group">
+                            <span>Confirmar Contraseña</span>
+                            <input type="password" class="form-control" id="contraseñaC"
+                                placeholder="Ingrese aqui su Contraseña" required>
+                            <small>Por favor confirme su contraseña</small>
+                        </div>
+                        <div class="buton">
+                            <input type="submit" value="Registrarse">
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </section>
+
     </main>
     <footer id="contacto">
         <div class="footer-content">
@@ -100,20 +169,33 @@
                 <p class="brands">Somos expertos en la locura de tus pelos</p>
             </div>
             <div class="social-media">
-                <a href="./"class="social-media-icon"> 
-                <i class='bx bxl-facebook-square'></i></a>
-                <a href="./"class="social-media-icon"> 
-                <i class='bx bxl-twitter'></i></a>
-                <a href="./"class="social-media-icon"> 
-                <i class='bx bxl-instagram-alt'></i></a>
-                <a href="./"class="social-media-icon"> 
-                <i class='bx bxl-linkedin'></i></a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-square'></i></a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i></a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt'></i></a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-linkedin'></i></a>
             </div>
         </div>
         <div class="line"></div>
     </footer>
     <script src="js/menu.js"></script>
     <script src="js/galeria.js"></script>
+
+    <script>
+        const addForm = document.getElementById
+            ("form-validation");
+        addForm.addEventListener("submit", (e)=>{
+            if (addForm.checkValidity() === false){
+                e.preventDefault();
+                e.stopPropagation();
+                addForm.classList.add('was-validated');
+                return false;
+            }
+        })
+    </script>
 
 </body>
 
